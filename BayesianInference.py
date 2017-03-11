@@ -7,7 +7,7 @@ class Prior(object):
 
 
 class Likelihood(object):
-    def __init__(self):
+    def __init__(self, *args):
         pass
 
     def __call__(self, *args, **kwargs):
